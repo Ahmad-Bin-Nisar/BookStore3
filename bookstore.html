@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+
+</head>
+<header style="background-image: url(coverphoto.jpg);">
+    <div class ="container1">
+        <img id = logo src="logo.png">
+        <h1 id = hdr>Book Hub</h1>
+        <img id = icon src="icon.png">
+    </div>
+    <div class = container2>
+        <nav>
+            <ul class = navbar>
+                <li class = navbar><a onmouseover="changecolor(this)" onmouseleave="resetcolor(this)" href="bookstore.html">Home</a></li>
+                <li class = navbar><a onmouseover="changecolor(this)" onmouseleave="resetcolor(this)" href="#">Categories</a></li>
+                <li class = navbar><a onmouseover="changecolor(this)" onmouseleave="resetcolor(this)" href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body style="background-color: rgb(165, 117, 117);">
+    <div id = "container3">
+    <main>
+        <img class ="frontimg"src="background.jpg" alt="hehe">
+       <img class ="frontimg"src="background2.jpg" alt="hehe">
+       <img class ="frontimg"src="background3.jpg" alt="hehe">
+    
+       <button onclick="goPrev()" style="float: left;"><</button>
+       <button onclick="goNext()" style="float: right;">></button>
+    </main>   
+    </div>
+    <script src="javascript.js"></script>
+</body>
+<footer style="background-color: rgb(165, 117, 117);">
+    <h6>Copyrights Claim unde section 3369(A) of HoneyBunny</h6>
+</footer>
+</html>

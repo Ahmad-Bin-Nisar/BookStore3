@@ -1,0 +1,112 @@
+*{
+    margin:0%
+}
+#logo{
+    float:left;
+    position:relative;
+    margin:0%;
+    width: 10%;
+}
+#icon{
+    float:right;
+    position:relative;
+    margin:0%;
+    width: 18%;
+}
+
+.container1{background-color: rgba(160, 102, 47, 0.651);
+    height: 25vh;
+ }
+.container2{background-color: rgb(66, 32, 32);}
+
+.navbar { 
+    display: inline; 
+    padding: 1px, 10px,1px,1px;
+    border: solid,1px;
+    padding-inline: 20px;
+    margin-inline-end: 50px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+#hdr { 
+    margin-top: 40%;
+    width : 30%;
+    margin-left: 25%;
+    display: inline;
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    font-family:Arial, Helvetica, serif;
+    color: black;
+}
+
+td{align-items:center;
+    padding: 30px;
+    border: solid 5px;
+    font-size: 30px;
+}
+tr{border: 10px;
+border-style: dashed;
+border-color: blueviolet;}
+
+table{
+border-color: black;
+margin-bottom: 30px;
+border:10%;
+border-style: dotted;
+border-radius: 5%;}
+
+.contact{
+    width: 50%;
+    margin-top: 8%;
+    margin-right: 10px;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 5%;
+}
+
+
+main{
+    width: 100%;
+    padding-top: 0%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.frontimg{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 5%;
+    padding-top: 0%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    transition : 0s;
+}
+
+button{
+    margin-top: 20%;
+    color: rgba(255, 68, 0, 0.815);
+    background-color: black;
+    font-size: 70px;
+    width : 5%;
+    height: 100px;
+    position: relative;
+    border: none;
+}
+button:hover{color:orangered;
+background-image: linear-gradient(to bottom,black,white);}
+
+hr{width:30%;
+align-items: center;
+size: 30%;
+border:dotted rgb(51, 38, 17);
+}
+form{ 
+    margin-bottom: 20px;
+    padding-inline: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-inline:  20%;
+}
